@@ -1,0 +1,19 @@
+REFUND POLICY
+
+Customers can request a refund within 30 days of a transaction.
+Refunds are processed within 5 business days and returned to the original payment method.
+For refunds on debit card transactions, the amount is credited back to the linked bank account.
+For credit card transactions, the refund appears as a statement credit within 1-2 billing cycles.
+
+Non-refundable items:
+- Wire transfer fees
+- Foreign transaction fees
+- Monthly account maintenance fees
+- Overdraft protection fees
+
+To request a refund, customers can:
+1. Use the mobile app: Go to Transactions → select the transaction → tap "Request Refund"
+2. Call customer support at 1-800-BANK-HELP (available 24/7)
+3. Visit any branch with a valid government-issued photo ID
+
+Refund requests submitted after 30 days require manager approval and are evaluated case-by-case.

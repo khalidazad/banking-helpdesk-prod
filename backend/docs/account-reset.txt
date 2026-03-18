@@ -1,0 +1,36 @@
+ACCOUNT ACCESS & RESET GUIDE
+
+PASSWORD RESET
+To reset your online banking password:
+1. Go to the login page and click "Forgot Password"
+2. Enter your registered email address
+3. Check your email for a reset link (valid for 15 minutes)
+4. Create a new password — minimum 8 characters, must include one uppercase letter, one number, and one special character
+
+If you do not receive the email within 5 minutes, check your spam folder or call 1-800-BANK-HELP.
+
+LOCKED ACCOUNT
+Your account is locked after 5 consecutive failed login attempts.
+To unlock: wait 30 minutes for automatic unlock, or call customer support for immediate assistance.
+
+TWO-FACTOR AUTHENTICATION (2FA)
+2FA is required for all online banking logins.
+Supported methods: SMS OTP, email OTP, authenticator app (Google Authenticator, Authy).
+To change your 2FA method: Settings → Security → Two-Factor Authentication.
+
+LOST OR STOLEN CARD
+Report a lost or stolen card immediately:
+- Mobile app: Cards → Report Lost/Stolen (instant freeze)
+- Phone: 1-800-BANK-HELP (24/7)
+A replacement card is issued within 5-7 business days. Expedited delivery (1-2 days) available for $15.
+
+CLOSING AN ACCOUNT
+To close a bank account:
+1. Ensure the account balance is zero or transfer remaining funds
+2. Cancel any automatic payments or direct deposits linked to the account
+3. Submit a closure request in writing at any branch or via certified mail
+Accounts with a negative balance cannot be closed until the balance is cleared.
+
+UPDATING PERSONAL INFORMATION
+To update address, phone number, or email: log in → Profile → Personal Information.
+Name changes require a legal document (marriage certificate, court order) submitted at a branch.

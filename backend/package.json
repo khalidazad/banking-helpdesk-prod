@@ -1,0 +1,42 @@
+{
+  "name": "banking-helpdesk-backend",
+  "version": "2.0.0",
+  "description": "Production RAG-based banking helpdesk API",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "ingest": "node src/rag/ingestDocs.js",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate deploy",
+    "db:studio": "prisma studio",
+    "test:smoke": "node src/utils/smokeTest.js"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.13.15",
+    "@langchain/community": "^1.1.23",
+    "@langchain/core": "^1.1.32",
+    "@langchain/groq": "^1.1.5",
+    "@langchain/openai": "^1.2.13",
+    "@langchain/pinecone": "^1.0.1",
+    "@langchain/textsplitters": "^1.0.1",
+    "@pinecone-database/pinecone": "^5.0.2",
+    "@prisma/client": "^6.19.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "pdf-parse": "^2.4.5",
+    "prisma": "^6.19.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

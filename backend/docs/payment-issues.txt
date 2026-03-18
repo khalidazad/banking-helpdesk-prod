@@ -1,0 +1,32 @@
+PAYMENT ISSUES — TROUBLESHOOTING GUIDE
+
+DECLINED TRANSACTIONS
+A transaction may be declined for the following reasons:
+- Insufficient funds in the account
+- Transaction exceeds daily spending limit
+- Card reported lost or stolen
+- Suspicious activity detected (fraud hold)
+- Incorrect PIN entered 3 times (card temporarily locked)
+
+To resolve a declined transaction:
+1. Check your account balance in the mobile app or online banking
+2. Verify your daily spending limit under Settings → Card Controls
+3. If you believe fraud is involved, call 1-800-BANK-HELP immediately
+4. To unlock a PIN-locked card, visit any branch or call support
+
+DAILY LIMITS
+- Debit card purchases: $5,000 per day
+- ATM withdrawals: $1,000 per day
+- Peer-to-peer transfers (Zelle, etc.): $2,500 per day
+- Wire transfers: $25,000 per day (requires additional verification)
+
+To request a temporary limit increase, call customer support at least 24 hours in advance.
+
+INTERNATIONAL PAYMENTS
+International transactions are subject to a 3% foreign transaction fee.
+To avoid declined cards abroad: notify the bank at least 48 hours before travel via the mobile app under Settings → Travel Notice.
+
+FAILED BANK TRANSFERS
+ACH transfers typically take 1-3 business days.
+If a transfer fails, funds are returned within 2 business days.
+Common causes: incorrect routing/account number, closed account, insufficient funds.

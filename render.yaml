@@ -1,0 +1,35 @@
+# render.yaml
+# Render.com deployment configuration for the backend API.
+# Commit this file to your repo — Render auto-detects it.
+#
+# HOW TO DEPLOY ON RENDER:
+#   1. Push this repo to GitHub
+#   2. Go to https://render.com → New → Web Service
+#   3. Connect your GitHub repo
+#   4. Render detects this file automatically
+#   5. Add your environment variables in Render dashboard
+#   6. Deploy!
+
+services:
+  - type: web
+    name: banking-helpdesk-api
+    env: node
+    region: oregon
+    plan: free          # Upgrade to starter ($7/mo) for always-on
+    rootDir: backend
+    buildCommand: npm install && npx prisma generate && npx prisma migrate deploy
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      # Set these in the Render dashboard (never in this file):
+      # DATABASE_URL
+      # PINECONE_API_KEY
+      # PINECONE_INDEX
+      # EMBEDDING_PROVIDER
+      # OPENAI_API_KEY
+      # GROQ_API_KEY
+      # ALLOWED_ORIGIN

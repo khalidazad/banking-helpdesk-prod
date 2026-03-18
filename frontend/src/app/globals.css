@@ -1,0 +1,68 @@
+/* globals.css — Banking Helpdesk Design System */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Brand */
+  --navy:       #0A1628;
+  --navy-mid:   #112240;
+  --navy-light: #1a3057;
+  --teal:       #00D4AA;
+  --teal-dim:   #00b893;
+  --teal-glow:  rgba(0, 212, 170, 0.12);
+  --teal-glow2: rgba(0, 212, 170, 0.06);
+
+  /* Surfaces */
+  --surface-1:  #0f1e35;
+  --surface-2:  #162440;
+  --surface-3:  #1c2d4e;
+  --surface-4:  #223358;
+
+  /* Text */
+  --text-primary:   #e8edf5;
+  --text-secondary: #8fa3bf;
+  --text-muted:     #556a85;
+
+  /* Borders */
+  --border:       rgba(255, 255, 255, 0.07);
+  --border-teal:  rgba(0, 212, 170, 0.25);
+
+  /* Shadows */
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.3);
+  --shadow-md:  0 4px 16px rgba(0,0,0,0.4);
+  --shadow-lg:  0 8px 40px rgba(0,0,0,0.5);
+
+  /* Radius */
+  --r-sm:  6px;
+  --r-md:  12px;
+  --r-lg:  18px;
+  --r-xl:  24px;
+
+  /* Font */
+  --font: var(--font-sans, 'DM Sans'), system-ui, sans-serif;
+  --font-mono: var(--font-mono, 'DM Mono'), monospace;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font);
+  background: var(--navy);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--surface-4); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* Selection */
+::selection { background: var(--teal-glow); color: var(--teal); }
